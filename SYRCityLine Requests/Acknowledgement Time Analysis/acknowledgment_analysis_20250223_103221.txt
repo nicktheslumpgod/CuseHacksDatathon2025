@@ -1,0 +1,82 @@
+
+Overall Median Acknowledgment Time (minutes): 688.0
+
+=== AGENCIES ===
+
+Top 5 Fastest Responding Agencies:
+                                median_time  count  min_time  max_time
+Agency_Name                                                           
+Garbage, Recycling & Graffiti         309.0  13157       0.0   99646.0
+Animals                               697.0    133       2.0  226066.0
+Housing & Property Maintenance        997.0   1026       0.0  437133.0
+Streets & Transportation             1089.5     66      46.0    5570.0
+Parking & Vehicles                   1110.0     63       5.0  240057.0
+
+Top 5 Slowest Responding Agencies:
+                                        median_time  count  min_time  max_time
+Agency_Name                                                                   
+Feedback to the City                         4249.5     72       5.0  139836.0
+Streets, Sidewalks & Transportation          1452.0   2817       0.0  408696.0
+Water & Sewage                               1168.5    718       0.0  462087.0
+Green Spaces, Trees & Public Utilities       1127.5   1938       0.0  294403.0
+Parking & Vehicles                           1110.0     63       5.0  240057.0
+
+=== ASSIGNEES ===
+
+Top 5 Fastest Responding Assignees:
+                                          median_time  count  min_time  max_time
+Assignee_name                                                                   
+Superintendent of Environmental Services        294.0   7733       0.0  106594.0
+Jeffrey Kohanski                                485.5    262       0.0  105137.0
+Forestry - Parks                                515.0    993       0.0  280457.0
+Superintendent- Street Cleaning                 579.0     53       9.0   12681.0
+Asst. Director of Blighted Structures           606.5    484       0.0   93528.0
+
+Top 5 Slowest Responding Assignees:
+                                 median_time  count  min_time  max_time
+Assignee_name                                                          
+Commissioner- Water                  23235.0     73       5.0  462087.0
+Cityline Operator- A                  6395.0     52       0.0   34678.0
+City Arborist                         5338.5    374       1.0  294403.0
+Water Emergency                       4675.5    236       4.0  354226.0
+Superintendent of Street Repair       4056.0    147      18.0  191346.0
+
+=== CATEGORIES ===
+
+Top 5 Fastest Acknowledged Categories:
+                                                               median_time  count  min_time  max_time
+Category                                                                                             
+Illegal Setouts                                                      159.5   7672       0.0   27204.0
+Vacant Buildings                                                     189.0    152       0.0   12571.0
+Report Improperly Set Out Trash or Recycling (Illegal Setout)        221.0    195       0.0    5080.0
+Report Roadkill                                                      628.0     77       7.0   72095.0
+Home & Building Maintenance                                          630.0     59       3.0   70980.0
+
+Top 5 Slowest Acknowledged Categories:
+                                               median_time  count  min_time  max_time
+Category                                                                             
+Large or Bulk Items- Setout notification only      47551.0     55       1.0   47840.0
+Sidewalks                                          10204.0     92       1.0  191346.0
+Potholes                                            6942.0    159      18.0  206903.0
+Property Damage- INTERNAL                           6098.0     89       7.0  146490.0
+Other Housing & Property Maintenance Concern        5398.0    167       1.0  437133.0
+
+Summary Statistics for Acknowledgment Times (in minutes):
+count     21844.00
+mean       2890.31
+std       12265.92
+min           0.00
+25%          15.00
+50%         688.00
+75%        1645.00
+max      462087.00
+
+Percentage of requests acknowledged within 60 minutes: 6.16%
+
+Percentage of requests acknowledged within 120 minutes: 7.21%
+
+Percentage of requests acknowledged within 240 minutes: 8.25%
+
+Percentage of requests acknowledged within 480 minutes: 9.18%
+
+Percentage of requests acknowledged within 1440 minutes: 14.16%

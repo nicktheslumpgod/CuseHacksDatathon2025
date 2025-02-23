@@ -1,0 +1,17 @@
+Worst 6 Agencies Compliance Rates:
+-----------------------------------
+Sanitation: 26.9% (182 requests)
+Sanitation Carts: 30.9% (4,312 requests)
+Feedback to the City: 31.9% (477 requests)
+Health, Safety & Social Services: 34.0% (103 requests)
+Parking & Vehicles: 36.8% (1,016 requests)
+Streets & Transportation: 49.7% (197 requests)
+
+Best 6 Agencies Compliance Rates:
+-----------------------------------
+Housing & Property Maintenance: 72.6% (9,297 requests)
+Garbage, Recycling & Graffiti: 70.8% (64,984 requests)
+Water & Sewage: 57.9% (19,578 requests)
+Green Spaces, Trees & Public Utilities: 55.0% (3,146 requests)
+Animals: 54.2% (1,051 requests)
+Streets, Sidewalks & Transportation: 51.3% (8,515 requests)

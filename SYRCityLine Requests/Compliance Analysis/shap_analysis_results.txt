@@ -1,0 +1,74 @@
+SHAP Analysis Results
+==================================================
+
+1. Feature Importance based on SHAP values
+----------------------------------------
+                       feature  importance  absolute_importance
+13     Historical_Assignee_SLA    0.771296             0.771296
+11     Historical_Category_SLA    0.562766             0.562766
+20                   Followers    0.414744             0.414744
+8            Created_DayOfWeek    0.390300             0.390300
+7                 Created_Year    0.323780             0.323780
+14  Assignee_Avg_Response_Time    0.205253             0.205253
+10        Daily_Request_Volume    0.173848             0.173848
+6                Created_Month    0.167908             0.167908
+16        Allocated_Time_Hours    0.149283             0.149283
+4                 Created_Hour    0.129925             0.129925
+2        Report_Source_Encoded    0.116899             0.116899
+5                  Created_Day    0.090040             0.090040
+19                Request_Type    0.082491             0.082491
+1             Category_Encoded    0.062871             0.062871
+18                   Longitude    0.053167             0.053167
+17                    Latitude    0.052258             0.052258
+3        Assignee_name_Encoded    0.045287             0.045287
+15     Assignee_Total_Requests    0.040085             0.040085
+0          Agency_Name_Encoded    0.037974             0.037974
+12       Historical_Agency_SLA    0.032223             0.032223
+24                         neu    0.031668             0.031668
+22                         pos    0.028288             0.028288
+21                    compound    0.022773             0.022773
+23                         neg    0.014360             0.014360
+9            Created_IsWeekend    0.001119             0.001119
+
+2. Top 10 Feature Interactions
+----------------------------------------
+                   Feature 1                   Feature 2  Interaction Strength
+210  Historical_Category_SLA     Historical_Assignee_SLA              0.556851
+168        Created_DayOfWeek     Historical_Assignee_SLA              0.301452
+152             Created_Year     Historical_Assignee_SLA              0.294982
+240  Historical_Assignee_SLA                   Followers              0.239521
+234  Historical_Assignee_SLA  Assignee_Avg_Response_Time              0.212164
+166        Created_DayOfWeek     Historical_Category_SLA              0.203725
+217  Historical_Category_SLA                   Followers              0.179162
+150             Created_Year     Historical_Category_SLA              0.176307
+135            Created_Month     Historical_Assignee_SLA              0.147670
+197     Daily_Request_Volume     Historical_Assignee_SLA              0.138857
+
+3. Average Feature Impact on Predictions
+----------------------------------------
+                       feature  positive_impact  negative_impact
+13     Historical_Assignee_SLA         0.525105         0.246193
+11     Historical_Category_SLA         0.354404         0.208361
+8            Created_DayOfWeek         0.216146         0.174154
+7                 Created_Year         0.205575         0.118205
+20                   Followers         0.181200         0.233543
+14  Assignee_Avg_Response_Time         0.132386         0.072866
+10        Daily_Request_Volume         0.116597         0.057251
+6                Created_Month         0.094807         0.073101
+2        Report_Source_Encoded         0.081707         0.035192
+4                 Created_Hour         0.073649         0.056275
+16        Allocated_Time_Hours         0.068990         0.080292
+5                  Created_Day         0.055009         0.035032
+19                Request_Type         0.044086         0.038405
+18                   Longitude         0.033824         0.019343
+1             Category_Encoded         0.032529         0.030341
+17                    Latitude         0.032193         0.020065
+3        Assignee_name_Encoded         0.026875         0.018412
+15     Assignee_Total_Requests         0.025532         0.014553
+24                         neu         0.022169         0.009499
+0          Agency_Name_Encoded         0.021893         0.016080
+12       Historical_Agency_SLA         0.016745         0.015478
+22                         pos         0.015718         0.012570
+21                    compound         0.009962         0.012811
+23                         neg         0.008228         0.006132
+9            Created_IsWeekend         0.000627         0.000492
