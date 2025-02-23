@@ -33,7 +33,7 @@ ggplot(histData, aes(x = time)) +
 #Agency_Name
 avgmodel <- coxph(Surv(start, time, event) ~ Agency_Name, data = survData)
 avgSurvFit <- survfit(avgmodel, data = survData)
-plot(avgSurvFit, xlab = "Time", ylab = "Probability Issue is Unresilved", main = "Survival Curve - All Agencies")
+plot(avgSurvFit, xlab = "Time", ylab = "Probability Issue is Unresolved", main = "Survival Curve - All Agencies")
 
 
 model <- coxph(Surv(start, time, event) ~ strata(Agency_Name), data = survData)
@@ -61,7 +61,7 @@ ggplot(surv_df, aes(x = time, y = estimate, color = strata)) +
 assigneeData <- survData %>%
   filter(Assignee_name %in% c('Commissioner- Water',
                               'Cityline Operator - KW', 'Sanitation_KT',
-                              'Community Police'))
+                              'Community Police', 'Jeffrey Kohanski'))
 assigneeModel <- coxph(Surv(start, time, event) ~ strata(Assignee_name), data = assigneeData)
 assigneeSurvFit <- survfit(assigneeModel, data = assigneeData)
 assigneeSurv_df <- broom::tidy(assigneeSurvFit)
